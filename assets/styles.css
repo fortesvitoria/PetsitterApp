@@ -1,0 +1,20 @@
+/* CCS  geral do PI */
+
+/* importa fonte do google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+/* variáveis */
+:root {
+    /* fontes */
+    --fonte-principal:  'Montserrat', sans-serif;
+
+    /* cores */
+    --preto: #0F0F0F;
+    --grafite: #272829;
+    --branco:#F1F1F1;
+    --off-white:#ECF4D6;
+    --laranja: #ef722f;
+    --azul: #2c627d;
+    --rosa: #f19ea3;
+
+}
