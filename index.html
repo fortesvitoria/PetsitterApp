@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruvi Petsitter - Login</title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/navbar.css">
+    <link rel="stylesheet" href="assets/CSS/login.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="nav-bar logo-login">
+            <a href="index.html"><img src="assets/Imagens/BruviSitter-logo-laranja-azul.png"
+                alt="logo Bruvi cor laranja de um desenho de um gato sobreexposto a um cão escrito ao lado Bruvi petsitter"
+                class="logo-bruvi"></a>
+        </nav>
+    </header>
+
+    <body>
+        <main>
+            <div class="div-login">
+                <form action="" class="form-login">
+                    <label for="usuario" id="usuario" name="usuario">Usuário</label>
+                    <input type="text" name="usuario">
+
+                    <label for="senha" id="senha" name="senha">Senha</label>
+                    <input type="password" name="senha">
+
+
+                    <a href="recuperaSenha.php">Esqueceu sua senha?</a>
+
+                    <button type="submit" class="button-ativo">Entrar</button>
+                    <button type="submit"><a href="index.html">Cadastrar</button></a>
+
+                </form>
+            </div>
+        </main>
+
+    </body>
+    <footer>
+<p class="copyright">&copy; 2023 - Bruno Marcolin e Vitória Fortes</p>
+    </footer>
+
 </body>
+
 </html>

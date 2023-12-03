@@ -1,0 +1,15 @@
+/* CCS PAGINA LOGIN */
+
+.div-login {
+    background: linear-gradient(var(--azul), var(--azul-claro));
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 4em 2em;
+    padding: 5em 2em;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+}
