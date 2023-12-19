@@ -1,15 +1,6 @@
-/* CCS PAGINA LOGIN */
+/* CSS da seção de login, página index.php. Obs o modo principal é o escuro  */
 
-.div-login {
-    background: linear-gradient(var(--azul), var(--azul-claro));
-    border-radius: 0.5rem;
-    display: flex;
-    justify-content: center;
-    margin: 4em 2em;
-    padding: 5em 2em;
-}
-
-.form-login {
-    display: flex;
-    flex-direction: column;
+.container-login{
+    width: 50%;
+    margin: 2em;
 }

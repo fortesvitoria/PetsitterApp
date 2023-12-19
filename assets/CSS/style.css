@@ -1,70 +1,177 @@
-/* CCS  geral do PI */
+/* CSS para configurações gerais. Obs o modo principal é o escuro */
 
-/* importa fonte do google */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+/* Importa fontes google */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
-/* variáveis */
+/* Cria variáveis com cores e fontes */
 :root {
-    /* fontes */
-    --fonte-principal:  'Montserrat', sans-serif;
-
-    /* cores */
+    --fonte-corpo: 'Questrial', sans-serif;
     --preto: #0F0F0F;
     --grafite: #272829;
-    --branco:#F1F1F1;
-    --off-white:#ECF4D6;
-    --laranja: #ef722f;
-    --laranja-diluido: rgba(239, 114, 47, 0.884);
-    --azul: #2c627d;
-    --azul-claro: #aeb9be;
-    --rosa: #f19ea3;
-
+    --off-white: #FFFFDE;
+    --bege: #fef0c3;
+    --bege-escuro: #fbae67;
+    --azul: #0f4353;
+    --laranja: #d32300;
+    --laranja-claro: #fc2e04;
 }
 
+/* Configurações básicas */
+
 body {
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--preto);
+    font-family: var(--fonte-corpo);
+    color: var(--off-white);
     margin: 0;
-    padding: 0;
-    background-color: var(--off-white);
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
-    /* display: flex; */
+    background-color: var(--grafite);
+    padding: 2em;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-input{
-    margin: 0.5em;
-    padding: 0.5em;
-    border-radius: 10em;
-    border: none;
-    font-family: var(--fonte-principal);
+h1,
+h2,
+h3,
+h4,
+button {
+    font-family: var(--fonte-corpo);
+    color: var(--off-white);
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
-    color: var(--preto);
+    color: var(--off-white);
+}
+
+a:hover {
+    color: var(--off-white);
+}
+
+form, .container-info {
+    display: flex;
+    flex-direction: column;
+}
+.form-padrao {
+    width: 35rem;
+}
+
+button a:hover,
+button a {
+    color: var(--off-white);
 }
 
 button {
-    background-color: var(--azul);
-    border-radius: 10em;
+    border-radius: 100px!important;
+    color: var(--off-white);
+    padding: 0.3em 0.5em;
+    font-weight: 600;
     border: none;
-    font-family: var(--fonte-principal);
-    font-weight: 500;
-    font-size: 16px;    
-    margin: 0.5em;
-    padding: 0.5em;    
+    cursor: pointer;
+    padding: 0.75em;
+    margin-top: 1em;
+    background-color: var(--laranja)!important;
 }
+
+
 
 button:hover {
-    background-color: var(--laranja);
-    cursor: pointer;
+    background-color: var(--laranja-claro)!important;
 }
 
-.copyright {
-    text-align: center;
-    font-size: 14px;
+input,
+select {
+    border-radius: 100px;
+    border: none;
+    color: var(--preto);
+    font-family: var(--fonte-corpo);
+    margin: 1em 0;
+    padding: 0.75em;
+    background-color: var(--off-white);
+}
+
+.icone-lua {
+    display: none;
+}
+
+.logo-claro {
+    display: none;
+}
+
+.fonte-leve {
+    font-weight: 400;
+}
+
+/* 
+.
+.
+.
+.
+MODO CLARO
+.
+.
+.
+.
+*/
+.modo-claro {
+    background-color: var(--off-white);
+}
+
+.modo-claro .icone-lua {
+    display: block;
+}
+
+.modo-claro .icone-sol {
+    display: none;
+}
+
+.modo-btn {
+    width: auto;
+    padding: 5px 6px;
+    margin: 0.5em;
+}
+
+.modo {
+    display: flex;
+    justify-content: end;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.modo-claro a {
+    text-decoration: none;
+}
+
+.modo-claro a:hover {
+    color: var(--off-white);
+}
+
+.modo-claro button:hover {
+    background-color: var(--laranja);
+}
+.modo-claro main {
+    background-color: var(--azul);
+}
+
+.modo-claro .fonte-leve {
+    color: var(--grafite);
 }
