@@ -12,6 +12,10 @@
 /* MOBILE */
 @media screen and (max-width: 500px) {
 
+    .logo-login {
+        max-width: 15rem;
+    }
+    
     main {
         padding: 1em;
         padding-bottom: 2.5em;

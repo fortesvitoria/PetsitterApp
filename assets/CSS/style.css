@@ -13,7 +13,7 @@
     --bege-escuro: #fbae67;
     --azul: #0f4353;
     --laranja: #d32300;
-    --laranja-claro: #fc2e04;
+    --laranja-claro: #ee4b2b;
 }
 
 /* Configurações básicas */
@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 main {
@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-    color: var(--off-white);
+    color: var(--bege);
 }
 
 form, .container-info {
@@ -69,14 +69,14 @@ form, .container-info {
 
 button a:hover,
 button a {
-    color: var(--off-white);
+    color: var(--bege);
 }
 
 button {
     border-radius: 100px!important;
     color: var(--off-white);
     padding: 0.3em 0.5em;
-    font-weight: 600;
+    font-weight: 500;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -129,10 +129,20 @@ MODO CLARO
 */
 .modo-claro {
     background-color: var(--off-white);
+    color: var(--grafite);
+}
+
+.modo-claro a {
+    color: var(--preto);
+}
+
+.modo-claro a:hover {
+    color: var(--grafite)!important;
 }
 
 .modo-claro .icone-lua {
     display: block;
+    /* position: fixed; */
 }
 
 .modo-claro .icone-sol {
@@ -141,8 +151,8 @@ MODO CLARO
 
 .modo-btn {
     width: auto;
-    padding: 5px 6px;
-    margin: 0.5em;
+    padding: 3px 10px;
+    margin: 0.85em;
 }
 
 .modo {
