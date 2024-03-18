@@ -4,3 +4,36 @@
     width: 50%;
     margin: 2em;
 }
+
+.botao-cadastro-mobile {
+    display: none;
+}
+
+/* MOBILE */
+@media screen and (max-width: 500px) {
+
+    main {
+        padding: 1em;
+        padding-bottom: 2.5em;
+    }
+    .linha-vertical-laranja {
+        display: none;
+    }
+
+    .container-cadastro-web {
+        display: none;
+    }
+
+    .botao-cadastro-mobile {
+        display: block;
+    }
+
+    .container-login{
+        width: 100%;
+        margin: 0;
+    }
+
+
+    
+
+}
