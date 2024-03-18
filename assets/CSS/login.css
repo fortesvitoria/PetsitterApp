@@ -9,6 +9,31 @@
     display: none;
 }
 
+
+/* 
+.
+.
+.
+.
+MODO CLARO
+.
+.
+.
+.
+*/
+.modo-claro .container-login {
+    color: var(--off-white);
+}
+
+.modo-claro .container-login a {
+    color: var(--off-white);
+}
+
+.modo-claro .container-login a:hover {
+    color: var(--bege)!important;
+}
+
+
 /* MOBILE */
 @media screen and (max-width: 500px) {
 
