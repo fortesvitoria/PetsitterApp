@@ -1,5 +1,6 @@
-.container-pesquisa {
-    background-image: url(../Images/imagens-de-teste/corgi01.jpg);
+.container-pesquisa-fundo {
+    align-items: center;
+    background-image: url(../Images/imagens-de-teste/corgi03.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -7,4 +8,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.container-pesquisa {
+    width: 75%;
+    background-color: var(--grafite-diluido);
+    padding: 2em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
