@@ -1,0 +1,10 @@
+.container-pesquisa {
+    background-image: url(../Images/imagens-de-teste/corgi01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

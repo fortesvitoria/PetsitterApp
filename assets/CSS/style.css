@@ -31,8 +31,8 @@ body {
 
 main {
     background-color: var(--grafite);
-    padding: 2em;
-    width: 70%;
+    /* padding: 2em; */
+    width: 100%;
     border-radius: 10px;
     display: flex;
     justify-content: center;

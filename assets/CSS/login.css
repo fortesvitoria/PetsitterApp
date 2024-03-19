@@ -1,5 +1,9 @@
 /* CSS da seção de login, página index.php. Obs o modo principal é o escuro  */
 
+.main-login {
+    width: 75%;
+}
+
 .container-login{
     width: 50%;
     margin: 2em;

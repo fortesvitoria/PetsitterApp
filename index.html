@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/CSS/index.css">
     <link rel="shortcut icon" href="assets/images/icone.png" type="image/x-icon">
 </head>
 
@@ -36,7 +37,7 @@
             <!-- botoes da navbar -->
             <div class="nav-buttons">
                 <button type="submit">Cadastrar</button>
-                <button type="submit"  onclick="window.location.href = 'login.html';">Entrar</button>
+                <button type="submit" onclick="window.location.href = 'login.html';">Entrar</button>
             </div>
 
             <!-- modo claro/escuro -->
@@ -52,27 +53,26 @@
 
     <!-- container login/cadastrar -->
     <main>
-        <!-- container login -->
-        <div class="container-login">
-            <h2>Login</h2>
-            <form method="post" action="codigosPHP/validaLogin.php">
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" required>
+        <!-- container pesquisa -->
+        <div class="container-pesquisa">
+            <div>
+                <h2>Login</h2>
+                <form method="post" action="codigosPHP/validaLogin.php">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
 
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
 
-                <button type="submit">Login</button>
+                    <button type="submit">Login</button>
 
-                <p><a href="/front-end/recuperaSenha.html">Esqueceu sua senha?</a></p>
+                    <p><a href="/front-end/recuperaSenha.html">Esqueceu sua senha?</a></p>
 
-                <!-- botao cadastro mobile -->
-                <button type="button" class="botao-cadastro-mobile"><a
-                        href="front-end/cadastro.html">Cadastre-se</a></button>
-            </form>
-
-
-
+                    <!-- botao cadastro mobile -->
+                    <button type="button" class="botao-cadastro-mobile"><a
+                            href="front-end/cadastro.html">Cadastre-se</a></button>
+                </form>
+            </div>
         </div>
         </div>
 
