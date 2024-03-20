@@ -30,8 +30,8 @@
     .menu {
       display: none;
       position: absolute;
-      top: 65px;
-      left: 10px;
+      top: 50px;
+      left: 0px;
       background-color: var(--preto);
       padding: 10px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
