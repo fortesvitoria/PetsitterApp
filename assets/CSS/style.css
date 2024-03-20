@@ -152,8 +152,8 @@ MODO CLARO
 
 .modo-btn {
     width: auto;
-    padding: 3px 10px;
-    margin: 0.85em;
+    padding: 5px 6px;
+    margin: 0.5em;
 }
 
 .modo {
@@ -214,6 +214,10 @@ MODO CLARO
 
     .fonte-leve {
         font-size: 12px;
+    }
+
+ .icones {
+        max-width: 20px;
     }
 
 }

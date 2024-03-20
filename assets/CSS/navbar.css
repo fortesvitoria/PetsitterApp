@@ -8,6 +8,7 @@
     font-weight: 600;
     font-size: 18px;
 }
+
 .nav-links {
     display: flex;
     align-items: center;
@@ -17,7 +18,7 @@
     padding: 1em;
 }
 
-.nav-buttons{
+.nav-buttons {
     display: flex;
     align-items: center;
 }
@@ -33,11 +34,17 @@
 
 /* MOBILE */
 @media screen and (max-width: 500px) {
-.nav-links {
-    display: none;
-}
-.nav-buttons{
-    display: none;
-}
+
+    .nav-logo {
+        max-width: 10rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-buttons {
+        display: none;
+    }
 
 }
