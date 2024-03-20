@@ -152,13 +152,13 @@ MODO CLARO
 
 .modo-btn {
     width: auto;
-    padding: 5px 6px;
+    padding: 7px 8px;
     margin: 0.5em;
 }
 
 .modo {
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .container-logo {
