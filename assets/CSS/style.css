@@ -60,10 +60,12 @@ a:hover {
     color: var(--bege);
 }
 
-form, .container-info {
+form,
+.container-info {
     display: flex;
     flex-direction: column;
 }
+
 .form-padrao {
     width: 35rem;
 }
@@ -74,7 +76,7 @@ button a {
 }
 
 button {
-    border-radius: 100px!important;
+    border-radius: 100px !important;
     color: var(--off-white);
     padding: 0.3em 0.5em;
     font-weight: 500;
@@ -83,13 +85,13 @@ button {
     font-size: 16px;
     padding: 0.5em;
     margin-top: 1em;
-    background-color: var(--laranja)!important;
+    background-color: var(--laranja) !important;
 }
 
 
 
 button:hover {
-    background-color: var(--laranja-claro)!important;
+    background-color: var(--laranja-claro) !important;
 }
 
 input,
@@ -138,7 +140,7 @@ MODO CLARO
 }
 
 .modo-claro a:hover {
-    color: var(--laranja)!important;
+    color: var(--laranja) !important;
 }
 
 .modo-claro .icone-lua {
@@ -151,9 +153,16 @@ MODO CLARO
 }
 
 .modo-btn {
-    width: auto;
-    padding: 7px 8px;
-    margin: 0.5em;
+    display: flex;
+    align-items: center;
+    padding: 0 9px;
+    margin: 0.9em;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    max-width: 24px;
 }
 
 .modo {
@@ -184,6 +193,7 @@ MODO CLARO
 .modo-claro button:hover {
     background-color: var(--laranja);
 }
+
 .modo-claro main {
     background-color: var(--azul);
 }
@@ -201,7 +211,7 @@ MODO CLARO
         align-items: center;
         font-size: 16px;
     }
-    
+
     main {
         background-color: var(--grafite);
         padding: 2em;
@@ -216,8 +226,14 @@ MODO CLARO
         font-size: 12px;
     }
 
- .icones {
+    .icones {
         max-width: 20px;
+    }
+
+    .modo-btn {
+        width: auto;
+        padding: 7px 9px;
+        margin: 0.10em;
     }
 
 }
