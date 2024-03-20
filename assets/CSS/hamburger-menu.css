@@ -1,0 +1,61 @@
+  /* MOBILE */
+  .burger-menu {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .icone-menu {
+    width: 24px;
+    background-color: var(--laranja);
+    padding: 8px 8px;
+    border-radius: 100%;
+    /* margin: 0.85em; */
+
+  }
+
+  @media screen and (max-width: 500px) {
+
+    /* CSS for the burger menu icon */
+    .burger-menu {
+      display: flex;
+      align-items: center;
+      /* Hide by default on larger screens */
+      cursor: pointer;
+    }
+
+    /* CSS for the menu items */
+    .menu {
+      display: none;
+      position: absolute;
+      top: 85px;
+      left: 10px;
+      background-color: var(--preto);
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* CSS for the menu items */
+    .menu li {
+      list-style: none;
+      margin: 5px 0;
+    }
+
+    /* 
+.
+.
+.
+.
+MODO CLARO
+.
+.
+.
+.
+*/
+    .modo-claro .menu {
+      background-color: var(--off-white);
+      color: var(--grafite);
+    }
+  }

@@ -6,10 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetSitterApp</title>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/CSS/hamburger-menu.css">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <link rel="stylesheet" href="assets/CSS/login.css">
     <link rel="stylesheet" href="assets/CSS/navbar.css">
     <link rel="stylesheet" href="assets/CSS/index.css">
+    <!-- icone aba -->
     <link rel="shortcut icon" href="assets/Images/icone.png" type="image/x-icon">
 </head>
 
@@ -18,15 +21,31 @@
     <!-- inicio cabecalho -->
     <header class="cabecalho">
 
-        <!-- icone logo PetSitterApp -->
+
         <div class="nav-bar">
+            <!-- hamburger menu -->
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div><img src="assets/Images/menu.png" alt="icone com tres linhas simbolizando um menu" class="icone-menu"></div>
+            </div>
+
+            <!-- Menu items -->
+            <ul class="menu">
+                <li><a href="#">Como funciona?</a></li>
+                <li><a href="#">Encontrar PetSitter</a></li>
+                <li><a href="#">Quero ser um PetSitter</a></li>
+                <button type="submit">Cadastrar</button>
+                <button type="submit" onclick="window.location.href = 'login.html';">Entrar</button>
+            </ul>
+
+            <!-- fim burger menu -->
+            <!-- icone logo PetSitterApp -->
             <div>
                 <a href="index.html"><img src="assets/Images/logo-laranja.png"
                         alt="imagem com o nome PetSitterApp e um icone de um cachorro da raça corgi desenhado"
                         class="nav-logo"></a>
             </div>
 
-            <!-- links da navbar --> 
+            <!-- links da navbar -->
             <div class="nav-links">
                 <a href="">Como funciona?</a>
                 <a href="">Encontrar PetSitter</a>
@@ -79,7 +98,8 @@
             <br>Todos os direitos reservados.
         </p>
     </footer>
-
+    <!-- script menu hamburger -->
+    <script src="js/hamburgerMenu.js"></script>
     <!-- script modo claro/escuro -->
     <script src="/js/modo.js"></script>
 </body>
