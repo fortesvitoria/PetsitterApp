@@ -73,12 +73,18 @@ body {
 }
 
 .secao-servicos h2 {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .secao-card-servicos {
     display: flex;
     justify-content: center;
+}
+
+.secao-card-center{
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
 }
 
 /* TELAS MENORES */
