@@ -49,10 +49,15 @@ body {
 }
 
 /* CORPO INDEX  SECAO-SOBRE-NOS */
+
+.sobre-nos {
+}
 .secao-sobre-nos {
     display: flex;
-    margin: 2em 0;
+    padding: 2em 0;
     justify-content: center;
+    
+    background-color: var(--azul);
 }
 
 .card-text {
