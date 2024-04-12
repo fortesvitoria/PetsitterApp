@@ -78,8 +78,6 @@ body {
 .secao-card-servicos {
     display: flex;
     justify-content: center;
-    align-items: center;
-
 }
 
 /* TELAS MENORES */
