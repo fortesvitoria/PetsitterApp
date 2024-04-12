@@ -1,4 +1,3 @@
-<!-- Página de login -->
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,102 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetSitterApp</title>
-    <!-- css -->
-    <link rel="stylesheet" href="assets/CSS/hamburger-menu.css">
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <link rel="stylesheet" href="assets/CSS/login.css">
-    <link rel="stylesheet" href="assets/CSS/navbar.css">
-    <link rel="stylesheet" href="assets/CSS/index.css">
-    <!-- icone aba -->
+    <!-- improta icone aba -->
     <link rel="shortcut icon" href="assets/Images/icone.png" type="image/x-icon">
+    <!-- importa css bootstrap -->
+    <link rel="stylesheet" href="assets/CSS/bootstrap.css">
+    <!-- importa css -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 
 <body>
+    <!-- CABECALHO -->
+    <header>
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- link titulo -->
+                <div class="link-titulo">
+                    <a class="navbar-brand" href="#" class="">
+                        <img src="assets/Images/icone1.png" alt="Logo" width="80" class="d-inline-block align-text-top">
+                    </a><a class="navbar-brand" href="#" class="">
+                        <h1>PetSitterApp</h1>
+                    </a>
+                </div>
+                <!-- fim link titulo -->
+                <!-- links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Encontrar um PetSitter
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img src="assets/Images/icone3.png" alt="Logo" width="30" class="d-inline-block align-text-top"> Pet sitter</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/Images/icone.png" alt="Logo" width="30" class="d-inline-block align-text-top"> Hospedagem</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/Images/icone2.png" alt="Logo" width="30" class="d-inline-block align-text-top"> Creche</a></li>
+                        </li>
+                    </ul>
+                    </li>
+                    <!-- fim dropdown -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                    </ul>
+                </div>
 
-    <!-- inicio cabecalho -->
-    <header class="cabecalho">
-
-
-        <div class="nav-bar">
-            <!-- hamburger menu -->
-            <div class="burger-menu" onclick="toggleMenu()">
-                <div><img src="assets/Images/menu.png" alt="icone com tres linhas simbolizando um menu" class="icone-menu icones"></div>
+                <!-- fim links -->
             </div>
-
-            <!-- Menu items -->
-            <ul class="menu">
-                <li><a href="#"><img src="assets/Images/pata.png" alt="patinha de pet na cor laranja" class="icone-pata"> Como funciona?</a></li>
-                <li><a href="#" class="link-par"><img src="assets/Images/pata.png" alt="patinha de pet na cor laranja" class="icone-pata">Encontrar PetSitter</a></li>
-                <li><a href="#"><img src="assets/Images/pata.png" alt="patinha de pet na cor laranja" class="icone-pata">Quero ser um PetSitter</a></li>
-                <button type="submit">Cadastrar</button>
-                <button type="submit" onclick="window.location.href = 'login.html';">Entrar</button>
-            </ul>
-
-            <!-- fim burger menu -->
-            <!-- icone logo PetSitterApp -->
-            <div>
-                <a href="index.html"><img src="assets/Images/logo-laranja.png"
-                        alt="imagem com o nome PetSitterApp e um icone de um cachorro da raça corgi desenhado"
-                        class="nav-logo"></a>
-            </div>
-
-            <!-- links da navbar -->
-            <div class="nav-links">
-                <a href="">Como funciona?</a>
-                <a href="">Encontrar PetSitter</a>
-                <a href="">Quero ser um PetSitter</a>
-            </div>
-
-            <!-- botoes da navbar -->
-            <div class="nav-buttons">
-                <button type="submit">Cadastrar</button>
-                <button type="submit" onclick="window.location.href = 'login.html';">Entrar</button>
-            </div>
-
-            <!-- modo claro/escuro -->
-
-            <div class="modo">
-                <button id="modoBtn" class="modo-btn">
-                    <span class="icone-sol"><img src="assets/Images/sun.png" alt="icone sol" class="icones"></span>
-                    <span class="icone-lua"><img src="assets/Images/moon.png" alt="icone lua" class="icones"></span></button>
-            </div>
-        </div>
+        </nav>
+        <!-- fim nav bar -->
 
     </header>
-
-    <!-- container login/cadastrar -->
+    <!-- FIM CABECALHO -->
+    <!-- CORPO -->
     <main>
-        <!-- container pesquisa -->
-        <div class="container-pesquisa-fundo">
-            <div class="container-pesquisa">
-                <h2>Pesquisar</h2>
-                <form method="post" action="codigosPHP/validaLogin.php">
-                    <label for="email">Emai:</label>
-                    <input type="text" id="email" name="email" required>
-
-                    <label for="senha">Senha:</label>
-                    <input type="password" id="senha" name="senha" required>
-
-                    <!-- botao cadastro mobile -->
-                    <button type="button" class="botao-cadastro-mobile"><a
-                            href="front-end/cadastro.html">Cadastre-se</a></button>
-                </form>
-            </div>
-        </div>
-        </div>
 
     </main>
-
-    <!-- rodapé -->
+    <!-- FIM CORPO -->
+    <!-- RODAPE -->
     <footer>
-        <p class="fonte-leve">&copy; 2024 Bruno Marcolin De Bastiani e Vitória Hoffelder Fortes.
-            <br>Todos os direitos reservados.
-        </p>
+
     </footer>
-    <!-- script menu hamburger -->
-    <script src="js/hamburgerMenu.js"></script>
-    <!-- script modo claro/escuro -->
-    <script src="/js/modo.js"></script>
+    <!-- FIM RODAPE -->
+
+
+    <!-- importa js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

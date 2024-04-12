@@ -1,11 +1,14 @@
 /* CSS para configurações gerais. Obs o modo principal é o escuro */
 
 /* Importa fontes google */
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+/* fonte corpo */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* Cria variáveis com cores e fontes */
 :root {
-    --fonte-corpo: 'Questrial', sans-serif;
+    --fonte-titulo: "Mitr", sans-serif;
+    --fonte-corpo: "Red Hat Display", sans-serif;
     --preto: #0F0F0F;
     --grafite: #272829;
     --grafite-diluido: #272829b7;
@@ -17,223 +20,26 @@
     --laranja-claro: #ee4b2b;
 }
 
-/* Configurações básicas */
-
-body {
-    font-family: var(--fonte-corpo);
-    color: var(--off-white);
-    margin: 0;
-    background-color: var(--preto);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* font-size: 16px; */
-}
-
-main {
-    background-color: var(--grafite);
-    /* padding: 2em; */
-    width: 100%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 h1,
 h2,
 h3,
 h4,
-button {
-    font-family: var(--fonte-corpo);
-    color: var(--off-white);
+h5,
+h6 {
+    font-family: var(--fonte-titulo);
 }
 
-a {
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--off-white);
-    font-size: 16px;
-}
-
-a:hover {
-    color: var(--bege);
-}
-
-form,
-.container-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-padrao {
-    width: 35rem;
-}
-
-button a:hover,
-button a {
-    color: var(--bege);
-}
-
-button {
-    border-radius: 100px !important;
-    color: var(--off-white);
-    padding: 0.3em 0.5em;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 0.5em;
-    margin-top: 1em;
-    background-color: var(--laranja) !important;
-}
-
-
-
-button:hover {
-    background-color: var(--laranja-claro) !important;
-}
-
-input,
-select {
-    border-radius: 100px;
-    border: none;
-    color: var(--preto);
-    font-family: var(--fonte-corpo);
-    margin: 1em 0;
-    padding: 0.75em;
-    background-color: var(--off-white);
-}
-
-.icone-lua {
-    display: none;
-}
-
-.logo-claro {
-    display: none;
-}
-
-.fonte-leve {
-    font-weight: 400;
-    text-align: center;
-    font-size: 14px;
-}
-
-/* 
-.
-.
-.
-.
-MODO CLARO
-.
-.
-.
-.
-*/
-.modo-claro {
-    background-color: var(--off-white);
-    color: var(--grafite);
-}
-
-.modo-claro a {
-    color: var(--preto);
-}
-
-.modo-claro a:hover {
-    color: var(--laranja) !important;
-}
-
-.modo-claro .icone-lua {
-    display: block;
-    /* position: fixed; */
-}
-
-.modo-claro .icone-sol {
-    display: none;
-}
-
-.modo-btn {
+.link-titulo {
     display: flex;
     align-items: center;
-    padding: 0 9px;
-    margin: 0.9em;
 }
 
-.icones {
-    display: flex;
-    align-items: center;
-    max-width: 24px;
-}
-
-.modo {
-    display: flex;
-    justify-content: center;
-}
-
-.container-logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2em;
-}
-
-.cabecalho {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.modo-claro a {
-    text-decoration: none;
-}
-
-.modo-claro a:hover {
-    color: var(--off-white);
-}
-
-.modo-claro button:hover {
-    background-color: var(--laranja);
-}
-
-.modo-claro main {
-    background-color: var(--azul);
-}
-
-.modo-claro .fonte-leve {
-    color: var(--grafite);
+.link-titulo h1 {
+    color: var(--laranja);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
-/* MOBILE */
-@media screen and (max-width: 500px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 16px;
-    }
-
-    main {
-        background-color: var(--grafite);
-        padding: 2em;
-        width: 70%;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .fonte-leve {
-        font-size: 12px;
-    }
-
-    .icones {
-        max-width: 20px;
-    }
-
-    .modo-btn {
-        width: auto;
-        padding: 7px 9px;
-        margin: 0.10em;
-    }
-
+body {
+    font-family: var(--fonte-corpo);
 }
