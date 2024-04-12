@@ -45,5 +45,16 @@ body {
 
 /* NAV BAR */
 .container-nav{
-    padding: 0.5em 2em 0.5em 4em;
+    padding: 0.5em 4em 0.5em 4em;
+}
+
+/* CORPO INDEX  SECAO-SOBRE-NOS */
+.secao-sobre-nos {
+    display: flex;
+    margin: 2em 0;
+    justify-content: center;
+}
+
+.card-text {
+text-align: justify;
 }
