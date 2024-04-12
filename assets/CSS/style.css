@@ -63,7 +63,15 @@ body {
     display: none;
 }
 
+@media only screen and (max-width: 1400px) {
+/* NAV BAR */
+.container-nav {
+    padding: 0.5em;
+}
+}
+
 @media only screen and (max-width: 766px) {
+    /* CORPO INDEX  SECAO-SOBRE-NOS */
     .card-gato-web {
         display: none;
     }
