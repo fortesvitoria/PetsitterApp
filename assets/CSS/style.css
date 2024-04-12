@@ -44,7 +44,7 @@ body {
 }
 
 /* NAV BAR */
-.container-nav{
+.container-nav {
     padding: 0.5em 4em 0.5em 4em;
 }
 
@@ -56,5 +56,18 @@ body {
 }
 
 .card-text {
-text-align: justify;
+    text-align: justify;
+}
+
+.card-gato-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 766px) {
+    .card-gato-web {
+        display: none;
+    }
+    .card-gato-mobile {
+        display: block;
+    }
 }
