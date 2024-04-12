@@ -48,15 +48,12 @@ body {
     padding: 0.5em 4em 0.5em 4em;
 }
 
-/* CORPO INDEX  SECAO-SOBRE-NOS */
+/* CORPO INDEX - SECAO-SOBRE-NOS */
 
-.sobre-nos {
-}
 .secao-sobre-nos {
     display: flex;
     padding: 2em 0;
     justify-content: center;
-    
     background-color: var(--azul);
 }
 
@@ -68,18 +65,40 @@ body {
     display: none;
 }
 
-@media only screen and (max-width: 1400px) {
-/* NAV BAR */
-.container-nav {
-    padding: 0.5em;
+/* CORPO INDEX - SECAO-SERVICOS */
+.titulo-servicos {
+    text-align: center;
+    padding: 1em 0;
 }
+
+.secao-servicos h2 {
+    margin-bottom: 1em;
+}
+
+.secao-card-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* TELAS MENORES */
+
+@media only screen and (max-width: 1400px) {
+
+    /* NAV BAR */
+    .container-nav {
+        padding: 0.5em;
+    }
 }
 
 @media only screen and (max-width: 766px) {
+
     /* CORPO INDEX  SECAO-SOBRE-NOS */
     .card-gato-web {
         display: none;
     }
+
     .card-gato-mobile {
         display: block;
     }
