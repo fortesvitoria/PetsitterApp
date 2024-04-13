@@ -1,4 +1,4 @@
-  <img src="https://raw.githubusercontent.com/fortesvitoria/PetsitterApp/main/assets/Images/icone.png" width="150" height="150"> 
+  <img src="https://raw.githubusercontent.com/fortesvitoria/PetsitterApp/main/assets/Images/icone1.png" width="150" height="150"> 
  
  [PetSitterApp -GitPages](https://fortesvitoria.github.io/PetsitterApp/)
  <br>
