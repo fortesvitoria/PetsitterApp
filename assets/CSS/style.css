@@ -63,9 +63,17 @@ body {
     text-align: justify;
 }
 
+.img-card-gato, .alinha-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-gato-mobile {
     display: none;
 }
+
+
 
 /* CORPO INDEX - SECAO-SERVICOS */
 .titulo-servicos {
