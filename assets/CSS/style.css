@@ -12,11 +12,12 @@
     --preto: #0F0F0F;
     --grafite: #272829;
     --grafite-diluido: #272829b7;
+    --cinza-claro: #8d9092b7;
     --off-white: #F1F1F1;
     --bege: #fef0c3;
     --bege-escuro: #fbae67;
     --azul: #0f4353;
-    --azul-medio:#185568;
+    --azul-medio: #185568;
     --laranja: #d32300;
     --laranja-claro: #ee4b2b;
 }
@@ -44,6 +45,17 @@ body {
     font-family: var(--fonte-corpo);
 }
 
+.titulo-card-coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--bege);
+}
+
+.titulo-card-coluna h2 {
+    padding-bottom: 1em;
+}
+
 /* NAV BAR */
 .container-nav {
     padding: 0.5em 4em 0.5em 4em;
@@ -51,19 +63,20 @@ body {
 
 /* CORPO INDEX - SECAO-SOBRE-NOS */
 
-.secao-sobre-nos {
+.secao-azul {
     display: flex;
     padding: 2em 2em;
     justify-content: center;
     background-color: var(--azul);
-    
+
 }
 
 .card-text {
     text-align: justify;
 }
 
-.img-card-gato, .alinha-centro {
+.img-card-gato,
+.alinha-centro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,12 +86,15 @@ body {
     display: none;
 }
 
-
+.borda-esquerda {
+    border-left: solid 1px var(--cinza-claro);
+    margin: 1em;
+}
 
 /* CORPO INDEX - SECAO-SERVICOS */
 .titulo-servicos {
     text-align: center;
-    padding: 1em ;
+    padding: 1em;
 }
 
 .secao-servicos h2 {
@@ -88,12 +104,31 @@ body {
 .secao-card-servicos {
     display: flex;
     justify-content: center;
+    padding-bottom: 2em;
 }
 
-.secao-card-center{
+.secao-card-center {
     display: flex;
     justify-content: center;
     margin: 0.5em;
+}
+
+/* CORPO INDEX - SECAO DEPOIMENTO */
+.cartao-depoimento img {
+    border: solid 4px var(--laranja);
+    padding: 0.25rem;
+    border-radius: 100%;
+    max-width: 150px;
+    margin: 1em 1em 1em 1em;
+    align-items: center;
+}
+
+.cartao-depoimento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* TELAS MENORES */
