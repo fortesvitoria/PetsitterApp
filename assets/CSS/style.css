@@ -53,9 +53,10 @@ body {
 
 .secao-sobre-nos {
     display: flex;
-    padding: 2em 0;
+    padding: 2em 2em;
     justify-content: center;
     background-color: var(--azul);
+    
 }
 
 .card-text {
@@ -69,7 +70,7 @@ body {
 /* CORPO INDEX - SECAO-SERVICOS */
 .titulo-servicos {
     text-align: center;
-    padding: 1em 0;
+    padding: 1em ;
 }
 
 .secao-servicos h2 {
