@@ -13,6 +13,7 @@
     --grafite: #272829;
     --grafite-diluido: #272829b7;
     --cinza-claro: #8d9092b7;
+    --cinza-diluido: #adadad8f;
     --off-white: #F1F1F1;
     --bege: #fef0c3;
     --bege-escuro: #fbae67;
@@ -56,6 +57,9 @@ body {
     padding-bottom: 1em;
 }
 
+.link-simples:hover {
+    text-shadow: 1px 1px 2px var(--cinza-diluido);
+}
 /* NAV BAR */
 .container-nav {
     padding: 0.5em 4em 0.5em 4em;
