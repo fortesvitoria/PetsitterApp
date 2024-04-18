@@ -60,6 +60,7 @@ body {
 .link-simples:hover {
     text-shadow: 1px 1px 2px var(--cinza-diluido);
 }
+
 /* NAV BAR */
 .container-nav {
     padding: 0.5em 4em 0.5em 4em;
@@ -72,7 +73,6 @@ body {
     padding: 2em 2em;
     justify-content: center;
     background-color: var(--azul);
-
 }
 
 .card-text {
@@ -118,21 +118,8 @@ body {
 }
 
 /* CORPO INDEX - SECAO DEPOIMENTO */
-.cartao-depoimento img {
-    border: solid 4px var(--laranja);
-    padding: 0.25rem;
-    border-radius: 100%;
-    max-width: 150px;
-    margin: 1em 1em 1em 1em;
-    align-items: center;
-}
-
-.cartao-depoimento {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.secao-comentario-texto {
+    text-align: justify;
 }
 
 /* TELAS MENORES */
@@ -154,5 +141,20 @@ body {
 
     .card-gato-mobile {
         display: block;
+    }
+
+    /* CORPO INDEX  DEPOIMENTOS */
+    .secao-comentario {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 406px) {
+
+    /* CORPO INDEX  DEPOIMENTOS */
+    .secao-comentario {
+        flex-direction: column;
+        align-items: center;
     }
 }
