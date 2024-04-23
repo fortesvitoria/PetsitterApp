@@ -4,3 +4,6 @@ depo-cachorro - https://unsplash.com/pt-br/fotografias/uma-mulher-sentada-em-um-
 comentario-1 - https://unsplash.com/pt-br/fotografias/homem-na-camisa-cinza-do-pescoco-da-tripulacao-segurando-gato-branco-e-preto-BkGnjF-VhVU
 comentario-2 - https://unsplash.com/pt-br/fotografias/mulher-prestes-a-beijar-cao-MTHt9XoDzrg
 comentario-3 - https://unsplash.com/pt-br/fotografias/homem-na-camisa-cinza-do-pescoco-da-tripulacao-segurando-gato-branco-e-preto-BkGnjF-VhVU
+sitter-gato - https://www.pexels.com/pt-br/foto/animal-bicho-carregando-transportante-8434601/
+sitter-cao - https://www.pexels.com/pt-br/foto/homem-beijando-beijo-cachorro-7341095/
+sitter-cao-gato - https://www.pexels.com/pt-br/foto/homem-beijando-beijo-cachorro-7341095/
