@@ -149,6 +149,7 @@ body {
     text-decoration: none;
 }
 
+
 /* TELAS MENORES */
 
 @media only screen and (max-width: 1400px) {
@@ -184,4 +185,16 @@ body {
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+/* ************************************************** */
+/* ************************************************** */
+/* ************************************************** */
+/* ************************************************** */
+
+/* CORPO ENCONTRAR-PETSITTER */
+
+.texto-secundario-branco {
+    color: var(--off-white)!important;
 }
