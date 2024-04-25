@@ -42,26 +42,84 @@
             <div class="row col-sm-32 col-md-8">
                 <div class="card">
                     <div class="d-flex justify-content-center">
-                        <img src="../assets/Images/imagem-cadastro.png" alt="">
-                    </div>                    
+                        <img src="../assets/Images/imagem-cadastro.png" alt="" class="img-fluid">
+                    </div>
                     <h5 class="card-title text-center pb-2">Cadastre-se à PetSitterApp </h5>
                     <h6>Dados Pessoais</h6>
                     <div class="card-body d-flex">
                         <!-- dados pessoais -->
-                        <div class="row  col-md-6">
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                                    aria-describedby="basic-addon1">
+                        <form class="row g-3">
+                            <!-- foto de perfil -->
+                            <div class="mb-3 row d-flex justify-content-center">
+                                <div class="m-2 col-sm-12 col-md-6 d-flex justify-content-center">
+                                    <img src="../assets/Images/icone-foto-perfil.png" alt="">
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <label for="inputFotoPerfil" class="form-label">Escolha uma imagem de perfil</label>
+                                    <input class="form-control" type="file" id="inputFotoPerfil">
+                                </div>
                             </div>
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                                    aria-describedby="basic-addon1">
+                            <!-- foto de perfil -->
+                            <div class="col-md-6">
+                                <label for="inputNome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="inputNome">
                             </div>
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                                    aria-describedby="basic-addon1">
+                            <div class="col-md-6">
+                                <label for="inputSobrenome" class="form-label">Sobrenome</label>
+                                <input type="text" class="form-control" id="inputSobrenome">
                             </div>
-                        </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputCelular" class="form-label">Celular</label>
+                                <input type="number" class="form-control" id="inputCelular">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputSenha" class="form-label">Senha</label>
+                                <input type="password" class="form-control" id="inputSenha">
+                            </div>
+
+
+                            <!-- teste -->
+
+                            <div class="col-12">
+                                <label for="inputAddress" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputAddress2" class="form-label">Address 2</label>
+                                <input type="text" class="form-control" id="inputAddress2"
+                                    placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputCity" class="form-label">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputState" class="form-label">State</label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="inputZip" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Check me out
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                        </form>
                         <!-- fim dados pessoais -->
                     </div>
                 </div>
