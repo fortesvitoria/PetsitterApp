@@ -7,3 +7,6 @@ comentario-3 - https://unsplash.com/pt-br/fotografias/homem-na-camisa-cinza-do-p
 sitter-gato - https://www.pexels.com/pt-br/foto/animal-bicho-carregando-transportante-8434601/
 sitter-cao - https://www.pexels.com/pt-br/foto/homem-beijando-beijo-cachorro-7341095/
 sitter-cao-gato - https://www.pexels.com/pt-br/foto/homem-beijando-beijo-cachorro-7341095/
+petsitter01 - https://www.freepik.com/free-photo/young-woman-with-her-pets_26129371.htm#fromView=search&page=1&position=4&uuid=d000fdfd-8a02-4119-a30d-860f72cb92a3
+petsitter02 - https://www.freepik.com/free-photo/person-working-from-home-with-pet-dog_18492126.htm#fromView=search&page=1&position=51&uuid=d000fdfd-8a02-4119-a30d-860f72cb92a3
+petsitter03 - https://www.pexels.com/pt-br/foto/homem-animal-bicho-animal-de-estimacao-16272739/
