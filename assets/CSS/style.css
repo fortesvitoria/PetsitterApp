@@ -66,6 +66,10 @@ body {
     border: solid  3px var(--laranja);
 }
 
+.btn {
+    width: 200px!important;
+}
+
 /* NAV BAR */
 .container-nav {
     padding: 0.5em 4em 0.5em 4em;
