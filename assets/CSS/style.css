@@ -215,7 +215,7 @@ body {
     background-color: var(--azul);
 }
 
-@media only screen and (max-width: 406px) {
+@media only screen and (max-width: 450px) {
 /* CARD PESQUISA-PETSITTER */
     .pesquisa-container {
     flex-direction: column;
