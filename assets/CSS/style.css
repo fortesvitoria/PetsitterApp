@@ -221,3 +221,19 @@ body {
     flex-direction: column;
     }
 }
+
+/* ICONE PERFIL - SECAO EM VÁRIAS PAGINAS */
+.icone-perfil {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.icone-perfil img {
+   width: 180px;
+}
+
+.icone-perfil p {
+    font-size: 14px;
+    margin-top: 10px;
+ }
