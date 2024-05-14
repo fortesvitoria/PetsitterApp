@@ -211,6 +211,11 @@ body {
 
 /* CORPO PESQUISA-PETSITTER */
 
-.card-pesquisa-container {
-    
+
+
+@media only screen and (max-width: 406px) {
+/* CARD PESQUISA-PETSITTER */
+    .pesquisa-container {
+    flex-direction: column;
+    }
 }
