@@ -237,3 +237,9 @@ body {
     font-size: 14px;
     margin-top: 10px;
  }
+
+ /* CORPO PESQUISA-PETSITTER */
+
+.fundo-foto-pesquisa {
+    background-color: var(--azul);
+}
